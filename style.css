@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 18px;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.input {
+  height: 53px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.meaning-container {
+  display: none;
+}
